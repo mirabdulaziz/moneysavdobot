@@ -4,6 +4,8 @@ Kunlik Foyda Hisoblagich Telegram Bot
 
 Valyuta tekshirish, kopiya, paynet tushumi hisobini yuritadi.
 “””
+import os
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8801816108:AAGBMJ1S06g...")
 
 import logging
 from datetime import date
@@ -15,7 +17,7 @@ filters, ContextTypes, ConversationHandler
 
 # ── Sozlamalar ──────────────────────────────────────────────────────────────
 
-BOT_TOKEN = “8801816108:AAGBMJ1S06gHGY8WbI_Aa2sFQGdG13ewcno”   # @BotFather dan olingan token
+   # @BotFather dan olingan token
 
 # Holat konstantalari
 
